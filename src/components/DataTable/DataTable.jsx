@@ -174,15 +174,6 @@ const DataTable = ({ data, tableName }) => {
           }}
         />
       </div>
-      {isMobile && (
-        <Box sx={{ mt: 2, textAlign: "center" }}>
-          <Link to="/NewApplication" style={{ textDecoration: "none" }}>
-            <Button variant="contained" color="primary" startIcon={<AddIcon />}>
-              Add New Application
-            </Button>
-          </Link>
-        </Box>
-      )}
     </Paper>
   );
 };

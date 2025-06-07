@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = import.meta.env.VITE_BASE_URL;
+const baseURL = import.meta.env.VITE_BASE_URL || "https://assignment.devotel.io/api";
 
 // Create an Axios instance
 const axiosInstance = axios.create({
